@@ -1,7 +1,7 @@
-﻿namespace DataModels.Entities;
+﻿namespace BaseDataModels.Entities;
 
 public abstract class BaseEntity
 {
-    public Guid Id { get; init; }
+    public Guid Id { get; set; }
     public string Name { get; set; } = null!;
 }

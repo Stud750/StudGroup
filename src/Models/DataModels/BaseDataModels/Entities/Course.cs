@@ -1,4 +1,4 @@
-﻿namespace DataModels.Entities;
+﻿namespace BaseDataModels.Entities;
 
 public class Course : BaseEntity
 {

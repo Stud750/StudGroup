@@ -1,4 +1,4 @@
-﻿namespace DataModels.Repositories;
+﻿namespace BaseDataModels.Repositories;
 
 public interface IBaseRepository<T> where T : class
 {
@@ -22,5 +22,19 @@ public interface IBaseRepository<T> where T : class
     /// </summary>
     /// <param name="item">сущность</param>
     void Update(T item);
+    #endregion
+
+    #region Delete
+    /// <summary>
+    /// Удаляет сущность
+    /// </summary>
+    /// <param name="item">сущность</param>
+    void Delete(T item);
+
+    /// <summary>
+    /// Удаляет сущность
+    /// </summary>
+    /// <param name="id">ID, удаляемой сущности</param>
+    void Delete(Guid id);
     #endregion
 }
