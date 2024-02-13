@@ -5,7 +5,13 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{F9BF9A8C-13A4-4D70-9AA5-C8491540A1AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModels", "DataModels\DataModels.csproj", "{A87B3EEF-A58D-4A63-A1B6-AE804595D159}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataModels", "DataModels\DataModels.csproj", "{A87B3EEF-A58D-4A63-A1B6-AE804595D159}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B8B801EF-3029-47A5-A80B-70308EED608F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesktopApp", "DesktopApp", "{F6F8B264-08E0-44EC-B8B3-078D9B606AAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{3F36FCCC-10FD-476C-9237-041C6AF99456}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A87B3EEF-A58D-4A63-A1B6-AE804595D159} = {F9BF9A8C-13A4-4D70-9AA5-C8491540A1AA}
+		{F6F8B264-08E0-44EC-B8B3-078D9B606AAA} = {3F36FCCC-10FD-476C-9237-041C6AF99456}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {662170A8-21DD-4262-9EF5-9D8BC3723E0C}
