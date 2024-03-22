@@ -25,7 +25,7 @@ public class StudentRep : IStudentRep
 
         if (student is not null) student.Name = item.Name;
 
-        else throw new ArgumentOutOfRangeException($"{item}", "ID is not default");
+        else throw new ArgumentOutOfRangeException($"{item}", "ID is not default.");
     }
 
     public void Delete(Student? item)
